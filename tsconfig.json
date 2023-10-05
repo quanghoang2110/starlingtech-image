@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@starlingtech/element": ["./src/index"],
+      "@starlingtech/image": ["./src/index"],
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

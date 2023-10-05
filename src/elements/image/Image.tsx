@@ -5,9 +5,7 @@ import FastImage, {
   type FastImageProps,
   type ImageStyle,
 } from 'react-native-fast-image';
-import { appSize } from '../../helper/sizeHelper';
-import { useThemeContext } from '../../hook/contextHook';
-import { AppBlock } from '@starlingtech/element';
+import { useThemeContext, appSize, AppBlock } from '@starlingtech/element';
 
 interface Props extends FastImageProps {
   radius?: number;
