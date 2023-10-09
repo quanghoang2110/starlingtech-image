@@ -59,7 +59,7 @@ export default function Image(props: Props) {
         styles.image,
         style,
         props.style,
-        isLoading && { backgroundColor: colors.backdrop },
+        isLoading && { backgroundColor: colors.skeleton },
       ]}
       onLoad={() => setIsLoading(false)}
       onError={() => setImageError(true)}
